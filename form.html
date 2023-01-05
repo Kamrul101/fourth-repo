@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style1.css">
+</head>
+<body>
+    <header class="nav-bar">
+        <nav >
+            <ul>
+                <li><a href="nav-bar.html">Navigation</a></li>
+                <li><a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="new.html">new</a></li>
+                        <li><a href="new2.html">new2</a></li>
+                    </ul></li>
+                <li><a href="audio-video.html">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form >
+        <h2>Fill up the form</h2>
+        <label for="name">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        </label>
+        <label for="email"><input id="email" type="email" placeholder="Your email address" required>
+        </label>
+        <label for="contact"><input id="contact" type="number" placeholder="Your phone number">
+        </label>
+        <label for="pass"><input id="pass" type="password" required placeholder="Type password">
+        </label>
+        <label for="pass"><input id="pass" type="password" required placeholder="Re-type password">
+        </label>
+        <fieldset >
+            <legend>
+                <p>Your gender</p></legend>
+                <label for="male">
+                    <input type="radio" name="gender" id="male">
+                Male</label>
+                <label for="female">
+                    <input type="radio" name="gender" id="female">Female
+                </label>
+                
+            
+        </fieldset>
+        <div class="clear">
+            <button type="reset" class="resetbtn">Reset</button>
+        <button type="submit" class="submitbtn">Submit</button>
+    
+        </div>
+        
+    </form>
+    
+</body>
+</html>
